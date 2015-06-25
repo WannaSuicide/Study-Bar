@@ -1,0 +1,8 @@
+package com.ifour.study.biz;
+
+import com.ifour.study.po.Labelsearching;
+
+public interface ILabelsearchingBiz {
+	public abstract boolean add(final Labelsearching labelsearching);
+	public abstract boolean deleteById(final int post_id);
+}
